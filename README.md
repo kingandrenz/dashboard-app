@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# User Management Dashboard – Users List
 
-## Getting Started
+A responsive **Users List interface** built with **React** and **Tailwind CSS**. This project demonstrates how to display and manage user information such as name, email, role, and account status in a clean and professional dashboard layout.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Features
+
+- Responsive and modern UI with Tailwind CSS.
+- Dynamic rendering of user data from a local dataset.
+- Status indicators with conditional styling:
+
+  - ✅ Active – Green
+  - ⚠️ Inactive – Yellow
+  - ⏳ Pending – Orange
+  - ⛔ Suspended – Red
+
+- Structured for easy extension with APIs or backend systems.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** – Component-based UI
+- **Tailwind CSS** – Styling and responsiveness
+- **JavaScript (ES6+)**
+
+---
+
+## 📂 Project Structure
+
+```
+├── src
+│   ├── components
+│   │   └── UserList.js   # Main component for rendering users table
+│   ├── App.js            # Root app component
+│   └── index.js          # Entry point
+└── public
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📸 Screenshot
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+_(Add a screenshot or GIF of the project here for better presentation)_
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ⚡ Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 1️⃣ Clone the Repository
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+git clone https://github.com/your-username/user-management-dashboard.git
+cd user-management-dashboard
+```
 
-## Deploy on Vercel
+### 2️⃣ Install Dependencies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm install
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 3️⃣ Run the Development Server
+
+```bash
+npm start
+```
+
+The app should now be running on `http://localhost:3000`.
+
+---
+
+## 📌 Future Improvements
+
+- Add CRUD functionality (Create, Update, Delete users).
+- Connect to a backend API for real-time data.
+- Add authentication and role-based access.
+
+---
+
+## 🧑‍💻 Author
+
+**Anthony Kanu (Flexteck)**
+
+- [LinkedIn](https://www.linkedin.com/in/flexteck/)
+- [Portfolio](https://flexxteck-portfolio.vercel.app/)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
